@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section .main_div{
+    width: 90%;
+    height: fit-content;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #c0e1f5;
+}
+.fa-minus-square{
+    display: none;
+}
+.show_text .fa-minus-square{
+    display: inline;
+}
+.show_text .fa-plus-square{
+    display: none;
+}
+section .main_div .Question_sec .question_text{
+    display: none;
+}
+section .main_div .Question_sec .show_text .question_text{
+    display: block;
+}
+
